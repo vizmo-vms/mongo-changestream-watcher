@@ -1,6 +1,6 @@
 {
-  "name": "@casbin/mongo-changestream-watcher",
-  "version": "1.1.1",
+  "name": "@vizmo/mongo-changestream-watcher",
+  "version": "1.1.1-1",
   "description": "Casbin Watcher based on MongoDB Change Streams",
   "main": "lib/cjs/watcher.js",
   "typings": "lib/cjs/watcher.d.ts",
@@ -63,8 +63,8 @@
   "devDependencies": {
     "@types/jest": "^28.1.7",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
-    "casbin": "^5.16.0",
-    "casbin-mongoose-adapter": "^5.1.0",
+    "casbin": "^5.28.0",
+    "@vizmo/casbin-mongoose-adapter": "^5.3.1-1",
     "coveralls": "^3.1.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.22.0",
@@ -84,10 +84,10 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "mongodb": "^4.8.1"
+    "mongodb": "^6.16.0"
   },
   "peerDependencies": {
-    "casbin": "^5.16.0"
+    "casbin": "^5.28.0"
   },
   "config": {
     "commitizen": {
